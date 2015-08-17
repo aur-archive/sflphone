@@ -1,0 +1,34 @@
+pkgbase = sflphone
+	pkgdesc = SIP/IAX2 compatible softphone
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = http://www.sflphone.org/
+	install = sflphone.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = autoconf
+	makedepends = astyle
+	makedepends = gnome-doc-utils
+	makedepends = libgnomeui
+	makedepends = yelp-tools
+	makedepends = gnome-common
+	makedepends = intltool
+	depends = libpulse
+	depends = gsm>=0.9.7
+	depends = libzrtpcpp
+	depends = log4c
+	depends = check
+	depends = libyaml
+	depends = webkitgtk3
+	depends = celt
+	depends = dbus-c++
+	depends = libnotify
+	depends = speex
+	depends = clutter-gtk
+	optdepends = sflphone-plugins: additional plugins
+	source = https://projects.savoirfairelinux.com/attachments/download/14805/sflphone-1.4.1.tar.gz
+	options = !makeflags
+
+pkgname = sflphone
+
